@@ -2,14 +2,147 @@
     box-sizing: border-box;
   }
 
-  body {
-    text-align: center;
-  }
-
-  ul {
+  html {
     padding: 0;
   }
 
-  li {
-    list-style: none;
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    
+  }
+  main {
+
+  }
+
+  header {
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: lightgray;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    margin-bottom: 0px;
+    font-size: 45px;
+  }
+
+  form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin: 10px;
+    width: 100%;
+  }
+
+  .nav-top a {
+    float: right;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+
+  .nav-top a:hover {
+    background-color: lightgray;
+    color: black;
+  }
+
+  .tagline {
+    margin-top: 0px;
+  }
+
+  .bio {
+    padding: 10px;
+  }
+
+  .heading {
+    margin-top: 25px;
+    font-size: 30px;
+  }
+
+  .tech {
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+  }
+  .col  {
+    display: inline;
+    padding: 5px;
+  }
+
+  .projects {
+    text-align: center;
+  }
+
+  .project-title {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .project-item {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  .project-item a {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+  }
+
+  .project-item a:hover {
+    color: red;
+  }
+
+  .project-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  @media only screen and (min-width: 800px){
+    body {
+      text-align: center;
+    }
+    .bio {
+      margin: 20px 150px;
+      
+    }
+    .tech {
+      padding-bottom: 50px; 
+    }
+    .project-image {
+      width: 40%;
+      border: 1px solid black;
+    }
+    .project-item a {
+      display: block;
+    }
+    button {
+      width: 20%;
+      align-self: center;
+    }
   }
