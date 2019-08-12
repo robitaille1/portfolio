@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla|Rubik:400,700&display=swap" rel="stylesheet">
     <title>Lucas Robitaille</title>
 </head>
 <body>
     <nav role="navigation" class="nav-top">
-        <a href="#About">Contact</a>
+        <a href="#Contact">Contact</a>
         <a href="#Projects">Projects</a>
-        <a class='active' href="#Contact">About Me</a>
+        <a class='active' href="#About">About Me</a>
     </nav>
     <main role="main">
-        <header role="header" class="head">
+        <header role="header" class="head"  id="About">
             <h1>Lucas Robitaille</h1>
             <p class="tagline">Hello! My name is Lucas Robitaille, and I am a fullstack developer from Austin, Texas.</p>
         </header>
@@ -37,7 +38,7 @@
                 <p class="col">jQuery</p>
             </div>
         </section>
-        <section class="projects">
+        <section class="projects" id="Projects">
             <h2 class="heading">Projects</h2>
             <div>
                 <div class="project-item">
@@ -49,12 +50,12 @@
                 </div>
             </div>
         </section>
-        <section role="contact" class="contact">
+        <section role="contact" class="contact" id="Contact">
             <h2 class="heading">
                 Contact
             </h2>
             <p>
-                Feel free to contact me at: <span class="bold">lucas.robitaille@yahoo.com</span> 
+                Feel free to contact me at: <span class="bold"><a class="email" href="">lucas.robitaille@yahoo.com</a></span> 
             </p>
             <p>
                 Github:<span class="bold"> robitaille1</span>

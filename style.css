@@ -7,8 +7,10 @@
   }
 
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Karla', sans-serif;
     line-height: 1.5;
+    background-color: #00020e;
+    color: white;
   }
 
   nav {
@@ -16,30 +18,37 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: grey;
-    
-  }
-  main {
-
+    background-color: #00020e;
+    border-bottom: 1px solid rgba(184, 182, 182, 0.356);
   }
 
   header {
     width: 100%;
     margin-top: 40px;
     padding: 10px;
-    background-color: lightgray;
     margin-bottom: 5px;
   }
 
   h1 {
     margin-bottom: 0px;
     font-size: 45px;
+    font-weight: bold;
   }
 
   form {
-    padding: 10px;
     display: flex;
     flex-direction: column;
+    background-color: rgb(184, 182, 182);
+    border-radius: 15px;
+    color: #00020e;
+    width: 66%;
+    margin: auto;
+    padding: 30px;
+  }
+
+  button {
+    background-color: rgb(230, 124, 39);
+    color: #00020e;
   }
 
   label {
@@ -53,13 +62,14 @@
     margin-left: 0px;
     margin-right: 0px;
     text-decoration: none;
-    color: black;
+    color: rgb(184, 182, 182);
     padding: 10px;
   }
 
   .nav-top a:hover {
-    background-color: lightgray;
-    color: black;
+    /* color: rgb(17, 202, 57); */
+    background-color: rgb(184, 182, 182);
+    color: #00020e;
   }
 
   .tagline {
@@ -72,13 +82,14 @@
 
   .heading {
     margin-top: 25px;
-    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
   }
 
   .tech {
     text-align: center;
-    background-color: lightgray;
-    padding: 10px;
+    padding: 30px;
+    background-color: rgb(184, 182, 182);
+    color: #00020e;
   }
   .col  {
     display: inline;
@@ -87,6 +98,7 @@
 
   .projects {
     text-align: center;
+    border: 1px solid rgb(184, 182, 182);
   }
 
   .project-title {
@@ -96,18 +108,17 @@
   }
 
   .project-item {
-    border: 1px solid black;
     padding: 10px;
   }
 
   .project-item a {
     text-decoration: none;
-    color: black;
+    color: rgb(184, 182, 182);
     margin: 0 5px;
   }
 
   .project-item a:hover {
-    color: red;
+    color: rgb(230, 124, 39);
   }
 
   .project-image {
@@ -119,13 +130,28 @@
     text-align: center;
   }
 
-  .bold {
-    font-weight: bold;
+  .email {
+    text-decoration: none;
+    color: rgb(230, 124, 39);
   }
+
+  .bold {
+    color: rgb(230, 124, 39);
+  }
+
 
   @media only screen and (min-width: 800px){
     body {
       text-align: center;
+    }
+    form {
+      width: 33%;
+      margin: auto;
+      padding: 30px;
+    }
+    button {
+      width: 20%;
+      align-self: center;
     }
     .bio {
       margin: 20px 150px;
@@ -141,8 +167,5 @@
     .project-item a {
       display: block;
     }
-    button {
-      width: 20%;
-      align-self: center;
-    }
+    
   }
