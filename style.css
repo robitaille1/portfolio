@@ -29,6 +29,7 @@
 
   h1 {
     margin-bottom: 0px;
+    margin-top: 0px;
     font-size: 45px;
     font-weight: bold;
   }
@@ -92,12 +93,27 @@
   }
 
   .bio {
-    padding: 10px;
+    padding: 0 30px;
   }
 
   .heading {
     margin-top: 25px;
     font-family: 'Rubik', sans-serif;
+  }
+
+  .head {
+    padding: 20px 30px;
+  }
+
+  .portrait {
+    display: inline-block;
+    height: 125px;
+    width: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
   }
 
   .tech {
@@ -109,6 +125,10 @@
   .col  {
     display: inline;
     padding: 5px;
+  }
+
+  .proj-head {
+    margin-top: 45px;
   }
 
   .projects {
@@ -149,14 +169,21 @@
   .link {
     text-decoration: none;
     color: rgb(230, 124, 39);
+    font-size: 25px;
+    margin: 10px;
+    display: inline;
   }
 
   .bold {
     color: rgb(230, 124, 39);
   }
 
+  .accent {
+    color: rgb(230, 124, 39);
+  }
 
-  @media only screen and (min-width: 800px){
+
+  @media only screen and (min-width: 700px){
     body {
       text-align: center;
     }
@@ -176,10 +203,16 @@
       align-self: center;
       padding: 5px;
     }
+    .head {
+      padding: 20px 100px;
+    }
 
+    .portrait {
+      margin-top: 20px;
+      float: none;
+    }
     .bio {
-      margin: 10px 150px;
-      
+      margin: 20px 75px;
     }
     .tech {
       padding-bottom: 50px; 
@@ -193,3 +226,21 @@
     }
     
   }
+  @media only screen and (min-width: 542px){
+    .portrait{
+      margin: 0 20px;
+    }
+  }
+  @media only screen and (max-width: 490px){
+    .portrait {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 1100px){
+    .bio {
+      margin: 20px 200px;
+    }
+  }
+
+
+  
