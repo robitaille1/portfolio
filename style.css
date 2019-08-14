@@ -73,6 +73,10 @@
     margin: 0px;
   }
 
+  footer {
+    text-align: center;
+  }
+
   .nav-top a {
     text-align: center;
     margin-left: 0px;
