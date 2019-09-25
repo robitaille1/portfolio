@@ -59,7 +59,8 @@
   button {
     background-color: rgb(230, 124, 39);
     color: #00020e;
-    margin-top: 15px;
+    margin-top: 20px;
+    padding: 7px;
   }
 
   input {
@@ -144,6 +145,7 @@
     font-size: 20px;
     margin: 0;
     font-weight: bold;
+    color:rgb(230, 124, 39);
   }
 
   .project-item {
