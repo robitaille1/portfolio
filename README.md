@@ -1,1 +1,5 @@
-This is a basic html and css mock-up for my portfolio.
+Lucas Robitaille
+
+Austin Texas
+
+https://robitaille1.github.io/portfolio/
