@@ -5,7 +5,8 @@
   body {
     font-family: 'Karla', sans-serif;
     line-height: 1.5;
-    background-color: #00020e;
+    /* background-color: #00020e; */
+    background-color: #1b1e33;
     color: white;
   }
 
@@ -14,10 +15,12 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #00020e;
+    /* background-color: #00020e; */
+    background-color: #1b1e33;
     border-bottom: 1px solid rgba(230, 125, 39, 0.438);
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   header {
@@ -30,7 +33,7 @@
   h1 {
     margin-bottom: 0px;
     margin-top: 0px;
-    font-size: 45px;
+    font-size: 55px;
     font-weight: bold;
   }
 
@@ -61,10 +64,14 @@
     color: #00020e;
     margin-top: 20px;
     padding: 7px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
   }
 
   input {
-    padding: 5px;
+    padding: 10px;
+    border-radius: 5px;
   }
 
   label {
@@ -76,6 +83,7 @@
 
   footer {
     text-align: center;
+    margin-bottom: 70px;
   }
 
   .nav-top a {
@@ -95,6 +103,7 @@
 
   .tagline {
     margin-top: 0px;
+    font-size: 20px;
   }
 
   .bio {
@@ -111,7 +120,8 @@
   }
 
   .portrait {
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;
     height: 125px;
     width: 100px;
     float: left;
@@ -176,6 +186,8 @@
 
   .contact {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 
   .link {
@@ -206,14 +218,14 @@
     }
 
     form {
-      width: 33%;
+      width: 40%;
       margin: auto;
       padding: 30px;
     }
     button {
       width: 100%;
       align-self: center;
-      padding: 5px;
+      font-size: 20px;
     }
     .head {
       padding: 50px 100px 5px 100px;
