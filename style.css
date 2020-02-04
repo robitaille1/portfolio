@@ -198,6 +198,10 @@
     display: inline;
   }
 
+  .link:hover {
+    color: rgb(184, 182, 182);
+  }
+
   .bold {
     color: rgb(230, 124, 39);
   }
