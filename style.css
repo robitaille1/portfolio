@@ -5,7 +5,6 @@
   body {
     font-family: 'Karla', sans-serif;
     line-height: 1.5;
-    /* background-color: #00020e; */
     background-color: #1b1e33;
     color: white;
   }
@@ -15,7 +14,6 @@
     top: 0;
     left: 0;
     right: 0;
-    /* background-color: #00020e; */
     background-color: #1b1e33;
     border-bottom: 1px solid rgba(230, 125, 39, 0.438);
     display: flex;
@@ -54,8 +52,9 @@
     background-color: rgb(184, 182, 182);
     border-radius: 15px;
     color: #00020e;
-    width: 66%;
+    width: 95%;
     margin: auto;
+    margin-top: 10px;
     padding: 30px;
   }
 
@@ -96,7 +95,6 @@
   }
 
   .nav-top a:hover {
-    /* color: rgb(17, 202, 57); */
     background-color: rgb(184, 182, 182);
     color: #00020e;
   }
@@ -120,7 +118,6 @@
   }
 
   .portrait {
-    /* display: inline-block; */
     display: none;
     height: 125px;
     width: 100px;
@@ -210,6 +207,16 @@
     color: rgb(230, 124, 39);
   }
 
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media only screen and (min-width: 450px){
+    form {
+      width: 66%;
+    }
+  }
 
   @media only screen and (min-width: 700px){
     body {
